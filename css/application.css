@@ -256,6 +256,7 @@ a:focus{
 .thumbnails > li > a > h4{
 	margin: 10px auto;
 	text-align: center;
+	white-space: nowrap;
 	
 }
 .people > li{
