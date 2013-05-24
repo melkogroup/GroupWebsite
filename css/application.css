@@ -155,7 +155,7 @@ a{
 }
 a:hover{
 	text-decoration: none;
-	color: #4a61c6;
+	color: #4a61c7;
 	cursor: pointer;
 }
 
@@ -176,6 +176,9 @@ a:focus{
 	color: gray;
 }
 
+.nav-collapse .nav {
+	margin: 10px 0;
+}
 
 /* Navigation */
 
@@ -1085,6 +1088,9 @@ address{
     .masthead h1 {
     	font-size: 90px;
     }
+    h1.logo {
+	    padding-top: 50px;
+    }
     .masthead p,
     .masthead .btn {
     	font-size: 24px;
@@ -1141,6 +1147,9 @@ address{
 	}
 	
 	#contact{
+		display: none;
+	}
+	.row-fluid > div.span2 {
 		display: none;
 	}
 
@@ -1214,13 +1223,14 @@ address{
 	  	padding: 6px;
 	  	margin-top: 5px;
 	}
-
+	h1.logo {
+		padding-top: 20px;
+	}
 
 	h2{
 	  	font-size: 24px;
 	  	line-height: 1.3em;
 	}
-
 
 	/* Tighten up footer */
 	.footer {
