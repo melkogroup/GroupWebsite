@@ -213,6 +213,21 @@ a:focus{
 	padding-right: 10px;
 }
 
+.Nice-bullets {
+	list-style-type: none;
+}
+
+.Nice-bullets > li:before {
+	position: relative;
+	top: 14px;
+	left: -16px;
+	display: block;
+	content: ' ';
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	background-color: gray;
+}
 
 /* Mobile navigation */
 .navtop{
