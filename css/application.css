@@ -1178,13 +1178,15 @@ address{
 		display: none;
 	}
     
-	/*.twitter-timeline{
-		width: 84%;
-	}*/
+	twitter-timeline{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 	.twit{
-		width: 84%;
-		position: relative;
-		left: 0px;
+		width: 90%;
+		margin: 0;
+		padding: 0;
 	}
 
 	/* Change up some type stuff */
