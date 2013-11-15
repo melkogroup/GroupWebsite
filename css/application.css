@@ -122,7 +122,6 @@ body{
 }
 
 
-
 /* format the right column a bit */
 .r-col{
 	padding-left: 25px;
@@ -1178,8 +1177,8 @@ address{
 		display: none;
 	}
     
-	twitter-timeline{
-		width: 100%;
+	#twitter-widget-0{
+		width: 80% !important;
 		margin: 0;
 		padding: 0;
 	}
@@ -1311,6 +1310,12 @@ address{
 	}
 	.well{
 		width: 90%;
+	}
+
+	
+	/* Making the arrows smaller on the calendar to fix horizontal scroll on mobile */
+	.fc-button {
+		padding: 0 !important;
 	}
 
 }
