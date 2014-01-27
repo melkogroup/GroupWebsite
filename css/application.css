@@ -122,7 +122,6 @@ body{
 }
 
 
-
 /* format the right column a bit */
 .r-col{
 	padding-left: 25px;
@@ -155,7 +154,7 @@ a{
 }
 a:hover{
 	text-decoration: none;
-	color: #4a61c6;
+	color: #4a61c7;
 	cursor: pointer;
 }
 
@@ -176,6 +175,9 @@ a:focus{
 	color: gray;
 }
 
+.nav-collapse .nav {
+	margin: 10px 0;
+}
 
 /* Navigation */
 
@@ -210,6 +212,21 @@ a:focus{
 	padding-right: 10px;
 }
 
+.Nice-bullets {
+	list-style-type: none;
+}
+
+.Nice-bullets > li:before {
+	position: relative;
+	top: 14px;
+	left: -16px;
+	display: block;
+	content: ' ';
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	background-color: gray;
+}
 
 /* Mobile navigation */
 .navtop{
@@ -253,6 +270,7 @@ a:focus{
 .thumbnails > li > a > h4{
 	margin: 10px auto;
 	text-align: center;
+	white-space: nowrap;
 	
 }
 .people > li{
@@ -1085,6 +1103,9 @@ address{
     .masthead h1 {
     	font-size: 90px;
     }
+    h1.logo {
+	    padding-top: 50px;
+    }
     .masthead p,
     .masthead .btn {
     	font-size: 24px;
@@ -1143,6 +1164,9 @@ address{
 	#contact{
 		display: none;
 	}
+	.row-fluid > div.span2 {
+		display: none;
+	}
 
 	.navtop{
 		display: block;
@@ -1153,14 +1177,15 @@ address{
 		display: none;
 	}
     
-	/*.twitter-timeline{
-		width: 84%;
-	}*/
+	#twitter-widget-0{
+		width: 80% !important;
+		margin: 0;
+		padding: 0;
+	}
 	.twit{
-		width: 84%;
-		position: relative;
-		left: 0px;
-		margin-right: 30px;
+		width: 90%;
+		margin: 0;
+		padding: 0;
 	}
 
 	/* Change up some type stuff */
@@ -1214,13 +1239,14 @@ address{
 	  	padding: 6px;
 	  	margin-top: 5px;
 	}
-
+	h1.logo {
+		padding-top: 20px;
+	}
 
 	h2{
 	  	font-size: 24px;
 	  	line-height: 1.3em;
 	}
-
 
 	/* Tighten up footer */
 	.footer {
@@ -1284,6 +1310,12 @@ address{
 	}
 	.well{
 		width: 90%;
+	}
+
+	
+	/* Making the arrows smaller on the calendar to fix horizontal scroll on mobile */
+	.fc-button {
+		padding: 0 !important;
 	}
 
 }
