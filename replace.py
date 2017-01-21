@@ -9,6 +9,6 @@ for root, dirs, files in os.walk('.'):
         #line = line.replace("Awkward Group Photos","Awkward Group Photos")
         #line = line.replace("Computational quantum many-body research","Computational quantum many-body research")
         #line = line.replace('<li><a href="https://www.dropbox.com/sh/kex0ui4f78ypzxd/PN641UnjIv">Online Material</a></li>','<li><a href="https://www.dropbox.com/sh/kex0ui4f78ypzxd/PN641UnjIv">Online Material</a></li>')
-        line = line.replace('<a href="http://uwaterloo.ca/physics-astronomy/">','<a href="http://uwaterloo.ca/physics-astronomy/">')
+        line = line.replace('<!-- <li><a href="Gallery/Gallery.html">Awkward Group Photos</a></li> -->','<!-- <!-- <li><a href="Gallery/Gallery.html">Awkward Group Photos</a></li> --> -->')
 
         print line,
