@@ -1,4 +1,4 @@
 GroupWebsite
 ============
 
-Website created by Halle Revell
+Website created by Halle Revell.
